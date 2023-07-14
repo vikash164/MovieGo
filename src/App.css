@@ -1,0 +1,51 @@
+  /* .App {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: #f0f2f5;
+  font-family: Arial, sans-serif;
+}   */
+ /* p{
+  font-size: 14px;
+  color: #262626;
+}
+.section{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.main-heading{
+  color: red;
+  font-size: 26px;
+}
+.underline{
+  height: 04px;
+  width: 4rem;
+  background-color: red;
+  margin-top: 10px;
+}
+.bg-c-light{
+  background-color:skyblue
+}  */
+
+.main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 300%;
+	height: 600px;
+	justify-content: space-evenly;
+	margin: 3% auto;
+	background-color: #f3f3f3;
+	border-radius: 10px;
+	color: #21dbde;
+}
+
+@media(max-width: 768px){
+	.main{
+		background-color: transparent;
+	}
+}
